@@ -1,7 +1,7 @@
 # ConfigFileLib
 Simple Class to manage config file
 
-```
+```c#
 ConfigFile configFile = new ConfigFile("config.cfg");
 
 // Set or create new key with value
