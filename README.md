@@ -1,5 +1,5 @@
 # ConfigFileLib
-Simple Class to manage config file</br>
+Simple Class to manage config file
 
 '''
 ConfigFile configFile = new ConfigFile("config.cfg");
