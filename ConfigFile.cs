@@ -13,7 +13,7 @@ namespace ConfigFileLib
         private char separator = '=';
         public ConfigFile(string path) 
         {
-            if(!File.Exists(path)) { File.Create(path); }
+            if(!File.Exists(path)) { File.WriteAllText(path,""); }
             this.path = path;
         }
 
